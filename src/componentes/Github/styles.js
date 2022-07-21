@@ -27,6 +27,7 @@ export const Itens = styled.div`
     justify-content: space-between;
     align-items: center;
     margin-bottom: 1rem;
+    width: 90vw;
 `;
 
 export const Foto = styled.div`
@@ -58,5 +59,44 @@ export const Foto = styled.div`
 export const ListaProjetos = styled.div`
     width: 100%;
     border-radius: 10px;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 3rem;
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 20px;
+    cursor:pointer;
+    color: #fff;
+
+`;
+
+export const ButtonDefault = styled.button`
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    background-color: transparent;
+    border: none;
+
+    a, button{
+        max-width: 150px;
+        width: 100%;
+        border: solid 1px #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        background-color: #c73897;
+        border-radius: 42px;
+        font-size: 1em;
+        padding: 12px 15px;
+        margin-bottom: 1em;
+        margin-top: 2rem;
+        transition-duration: 1s;
+        cursor: pointer;
+        text-decoration: none;
+
+        &:hover{
+            border:solid 1px #fff;
+            background-color: transparent;
+            color: #c73897;
+    }
 `;
