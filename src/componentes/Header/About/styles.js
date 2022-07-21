@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import background from './background.jpg'
 
 export const AboutContainer = styled.div`
+    padding: 30px 80px;
     height: 70vh;
     diplay: flex;
     align-items: center;
@@ -10,7 +11,7 @@ export const AboutContainer = styled.div`
     background-position: center;
     background-size: cover;
     text-align: center;
-    
+
     h2{
         text-transform: uppercase;
         font-size: 1.2rem;

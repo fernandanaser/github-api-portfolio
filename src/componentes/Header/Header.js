@@ -8,7 +8,7 @@ const Header = () =>{
     <HeaderContainer>
         <Container>
             <div>
-                Logo
+                Fernanda Naser
             </div>
             <Menu />
         </Container>
