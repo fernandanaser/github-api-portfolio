@@ -10,7 +10,7 @@ export const AboutContainer = styled.div`
     background-position: center;
     background-size: cover;
     text-align: center;
-
+    
     h2{
         text-transform: uppercase;
         font-size: 1.2rem;
