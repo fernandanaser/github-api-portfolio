@@ -1,4 +1,4 @@
-import { AboutContainer } from "componentes/About/styles";
+import Banner from "componentes/Header/About/About";
 import Menu from "./Menu/Menu";
 import { HeaderContainer, Container } from "./styles";
 
@@ -13,7 +13,7 @@ const Header = () =>{
             <Menu />
         </Container>
     </HeaderContainer>
-    <AboutContainer />
+    <Banner />
     </>
   )
 }
